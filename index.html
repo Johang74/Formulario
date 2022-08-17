@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!--Poner una imagen-->
+        <img src="img/logo.jpg" alt="imagen">
+        <form class="formulario">
+            <h2>Utilizar API Math.js</h2>
+            <div class="input-contenedor">
+                <input type="text" placeholder="Nombre" id="inputNombre">
+            </div>
+            <div class="input-contenedor">
+                <input type="number" placeholder="Cédula" id="inputCedula">
+            </div>
+            <div class="input-contenedor">
+                <input type="email" placeholder="Email" id="inputEmail">
+            </div>
+            <div class="input-contenedor">
+                <input type="number" placeholder="Teléfono" id="inputTelefono">
+            </div>
+            <div class="input-contenedor">
+                <input type="text" placeholder="Operación" id="inputOperacion">
+            </div>
+
+            <input value="Registrar" class="button" id="btnEnviar">
+            
+        </form>
+        <div>
+            <h2 id="resultado"></h2>
+        </div>
+    </div>
+</body>
+</html>
